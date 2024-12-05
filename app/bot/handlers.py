@@ -15,8 +15,6 @@ router = Router()
 async def fetch(message:Message):
     async with ClientSession() as session:
         try:
-            print(message.text)
-            
             sellers = await OzonParser.get_sellers_from_category(session, message.text)
         except Exception as e:
             await message.answer(f"Error occured: {e}")

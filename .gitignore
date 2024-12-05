@@ -1,3 +1,4 @@
 .env
 proxylist.txt
+.venv
 __pycache__
