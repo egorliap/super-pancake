@@ -2,3 +2,7 @@
 proxylist.txt
 .venv
 __pycache__
+Dockerfile
+Makefile
+.gitignore
+.dockerignore

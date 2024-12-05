@@ -22,4 +22,5 @@ pytz==2024.2
 six==1.17.0
 typing_extensions==4.12.2
 tzdata==2024.2
+XlsxWriter==3.2.0
 yarl==1.18.3
